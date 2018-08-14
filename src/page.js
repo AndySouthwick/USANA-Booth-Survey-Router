@@ -45,7 +45,7 @@ class Page extends Component {
             console.log(e)
             return(
               <div>
-                <Box buttonNumber={e.number}  cta={e.callToAction} image={e.image} next={e.whatHappensNext}/>
+                <Box buttonNumber={e.number}  cta={e.callToAction} image={e.image} next={e.whatHappensNext} surveyUrl={e.surveyUrl}/>
               </div>
             )
           })

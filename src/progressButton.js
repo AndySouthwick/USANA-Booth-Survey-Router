@@ -66,7 +66,7 @@ export default class MyProgressButton extends Component {
      return <div className='button' onClick={(e) => {
        e.preventDefault()
        this.handleClick(this.props.surveyUrl)
-     }}><span>{this.props.buttonNumber}</span></div>
+     }}><span>{this.props.buttonNumber} {this.props.surveyUrl}</span></div>
     }
 
   }
