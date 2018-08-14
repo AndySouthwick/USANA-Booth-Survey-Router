@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc960e2-dacb-4d5f-97fc-569ebb3530fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/progressButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/progressButton.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="progressButton.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="progressButton.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/progressButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+            <state relative-caret-position="704">
+              <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -136,8 +135,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/language.js" />
-        <option value="$PROJECT_DIR$/src/progressButton.js" />
         <option value="$PROJECT_DIR$/src/page.js" />
+        <option value="$PROJECT_DIR$/src/progressButton.js" />
       </list>
     </option>
   </component>
@@ -259,18 +258,18 @@
       <workItem from="1533933729798" duration="8323000" />
       <workItem from="1534168596629" duration="113000" />
       <workItem from="1534168919962" duration="33617000" />
-      <workItem from="1534217509225" duration="11063000" />
+      <workItem from="1534217509225" duration="11519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53116000" />
+    <option name="totallyTimeSpent" value="53572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1732" y="23" width="1872" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10534846" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10534846" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -278,7 +277,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3189394" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3189394" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -655,12 +654,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/progressButton.js">
+    <entry file="file://$PROJECT_DIR$/src/box.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        <state relative-caret-position="315">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -675,22 +684,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/box.js">
+    <entry file="file://$PROJECT_DIR$/src/progressButton.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="704">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
