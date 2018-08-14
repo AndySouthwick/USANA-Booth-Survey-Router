@@ -1,0 +1,60 @@
+.success-message .hide{
+    display: none;
+}
+body{
+    padding-top: 25px;
+}
+.green-bg{
+    background-color: #A0D468;
+    color: #fafafa;
+}
+.success-message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    border: solid 5px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App div{
+  display: flex;
+}
+.App div.box{
+    padding: 32px;
+    margin: 16px;
+  border-radius: 10px;
+  border: 5px solid rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App div h2{
+    text-align: center;
+}
+.pb-container .pb-button{
+    height: 54px;
+    width: 54px;
+}
+@media (max-width: 900px) {
+    .App div{
+        flex-direction: column;
+    }
+}
+.icon{
+    font-size: 50px;
+}
