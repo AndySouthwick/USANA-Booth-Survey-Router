@@ -41,7 +41,16 @@ class Page extends Component {
             )
           })
         case theLanguage[1].lang:
-          return  theLanguage[1].boxData.map(e => {
+        return  theLanguage[1].boxData.map(e => {
+          console.log(e)
+          return(
+            <div>
+              <Box buttonNumber={e.number}  cta={e.callToAction} image={e.image} next={e.whatHappensNext} surveyUrl={e.surveyUrl}/>
+            </div>
+          )
+        })
+        case theLanguage[2].lang:
+          return  theLanguage[2].boxData.map(e => {
             console.log(e)
             return(
               <div>
